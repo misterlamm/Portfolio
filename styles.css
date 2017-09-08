@@ -12,6 +12,10 @@ body, html {
     display: block;
 }*/
 
+.wrapper {
+    width: 1100px;
+}
+
 header {
     color: #363537;
     z-index: 100;
@@ -55,7 +59,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 li a:hover {
@@ -97,7 +100,6 @@ div ul {
     background-color: lightgray;
     margin: 20px auto;
     padding: 30px;
-    
 }
 
 .projectItem .description p {
@@ -139,7 +141,7 @@ div ul {
     background-color: lightgray;
     padding: 20px 100px;
     width: 65%;
-    margin: 40px auto;
+    margin: 40px 250px;
     font-weight: 300;
 }
 
@@ -156,7 +158,7 @@ div ul {
 }
 
 .resume {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     margin-bottom: 50px;
     width: 700px;
 }
